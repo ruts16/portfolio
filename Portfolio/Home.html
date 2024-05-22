@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="Static/CSS/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <title>Portfolio</title>
+    <style>
+      .skills{
+    width: 100%;
+    padding: 20px var(--mainpadding);
+    background-color: #f6f6f6;
+}
+.flex{
+    display: flex;
+}
+      .skills h1{
+    text-align: center;
+}
+.skills ul{
+    list-style-type: none;
+}
+.skills ul li{
+    text-align: right;
+    font-weight: bold;
+    margin-bottom: 36px;
+}
+.meter{
+    height: 30px;
+    background-color: white;
+    width: 800px;
+    margin-left: 10px;
+    margin-bottom: 24.5px;
+    position: relative;
+}
+.html::after,.css::after,.js::after,.php::after,.py::after{
+    content: "";
+    position: absolute;
+    height: 30px;
+    background-color: #28b5f4;
+}
+.html::before,.css::before,.js::before,.php::before,.py::before{
+    color: white;
+    position: absolute;
+    line-height: 30px;
+    z-index: 1;
+}
+.html::after{
+    width: 60%;
+}
+.html::before{
+    content: "60%";
+    right: 325px;
+}
+.css::after{
+    width: 70%;
+}
+.css::before{
+    content: "70%";
+    right: 245px;
+}
+.js::after{
+    width: 80%;
+}
+.js::before{
+    content: "80%";
+    right: 165px;
+}
+.php::after{
+    width: 65%;
+}
+.php::before{
+    content: "65%";
+    right: 285px;
+}
+.py::after{
+    width: 90%;
+}
+.py::before{
+    content: "90%";
+    right: 85px;
+}
+
+     
+      .img1{
+        margin-top:100px;
+        margin-right: 200px;
+        margin-left:100px ;
+        height: 70%;
+        width: 80%;
+      }
+     
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!--Navbar starts here-->
+      <div class="row">
+        <div class="col-md-12">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              
+              <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a style="color: aqua;"
+                      class="nav-link active"
+                      aria-current="page"
+                      href="Home.html"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a  style="color: aqua;" class="nav-link" href="aboutme.html">About Me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a  style="color: aqua;" class="nav-link" href="contactme.html">Contact Me</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a style="color: aqua;" class="nav-link" href="myskills.html">My Skills</a>
+                  </li>
+                </ul>
+                <a style="color: aqua;" class="navbar-brand" href="Home.html"><h1 style="color: aquamarine;"><i><b>Portfolio</b></i></h1></a>
+              <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <!--Navbar ends here-->
+
+      <!--Body starts here-->
+
+      <!--section1-->
+      <div class="row">
+        <!--slideshow-->
+        <div class="col-md-12  p-3" >
+          
+          <img style="
+          margin-right: 90px;
+          height: 70%;
+          width: 100%;" src="https://www.chitkara.edu.in/blogs/wp-content/uploads/2022/10/computer-science.jpg">
+        </div>
+        <!--slideshow-->
+      </div>
+
+      <!--section2-->
+      <div class="row bg-light">
+        <!--About Us-->
+        <div class="col-md-6 ">
+            <h1 style="text-shadow: 5px 5px 4px grey;">about me</h1><hr>
+            <h2 style="color: grey;">I'm a Full Stack Developer <br>From Pune ,Maharastra</h2>
+            <h5><b>I enjoy taking complex problems and turning them into simple and beautiful interface designs.<br>
+                I also love the logic and structure of coding and always strive to write elegant and efficient code ,<br>
+                whether it be Html Css or JavaScript.I also love working on backend of the statics<br> websites to make it dynamic  with Java , springboot<br>
+                or even going with trends like Python plus Django.<br>Creating creative and responsive websites is my ultimate goal that are user friendly.<br>
+            </b></h5>
+        </div>
+        <!--About Us-->
+
+        <!--Image-->
+        <div class="col-md-6 ">
+          <div class="img1">
+            <img style="
+            margin-right: 200px;
+            margin-left:50px ;
+            height: 80%;
+            width: 80%;" src="https://media.istockphoto.com/id/1306190794/vector/programmer-girl-working-on-the-laptop-programming-and-engineering-concept.jpg?s=612x612&w=0&k=20&c=SgBoKGaZRVOQRcKSR_ZRo46EQLlEEN_Jkq6NSd8d3H0=">
+        </div>
+          </div>
+        <!--Image-->
+      </div>
+
+      <!--section3-->
+      <div class="row bg-light mt-3  p-3">
+
+        <!--My skills-->
+        
+        <div class="skills">
+          <h1 style="text-shadow: 5px 5px 4px grey;">our skills</h1>
+          <div class="flex">
+              <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>javaScript</li>
+                  <li>PHP</li>
+                  <li>python</li>
+              </ul>
+              <div>
+                  <div class="meter html" style="margin-top: 8px;"></div>
+                  <div class="meter css"></div>
+                  <div class="meter js"></div>
+                  <div class="meter php"></div>
+                  <div class="meter py"></div>
+              </div>
+          </div>
+      </div>
+          
+        </div> 
+        <!--My skills-->
+      <!-- </div> -->
+
+      <!--section4-->
+      <div class="row bg-light mt-3  p-3">
+        <!--Contact Me-->
+        <div class="col-md-6">
+          <h2>Contact Us</h2>
+          <div class="col-5">
+            <div class="mb-3">
+              <label for="formGroupExampleInput" class="form-label">Name</label>
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name">
+            </div>
+            <div class="mb-3">
+              <label for="formGroupExampleInput" class="form-label">Email</label>
+              <input type="email" class="form-control" id="formGroupExampleInput" placeholder="username@gmail.com">
+            </div> 
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="mb-3">
+              <button type="button" class="btn btn-danger">Danger</button>
+            </div>
+          </div>
+          <div class="col-5">
+        </div>
+        </div>
+        <!--Contact Me-->
+
+        <!--Image-->
+        <div class="col-md-6">
+            <img style="margin-top: 100px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAk0tiKGqHgQ5u3sNpEUYpo2FH75WxU5Gxmw&s">
+        </div>
+        <!--Image-->
+      </div>
+      <!--Body ends here-->
+
+      <!--Footer starts-->
+      <div class="row bg-light mt-3  p-3">
+        <div class="col-md-4 bg-dark text-light p-3">
+          <h5>Contact Details</h5>
+          <hr />
+          <h6>Phone no : 9518560911</h6>
+          <h6>Email ID : ruts!617@gmail.com</h6>
+          <h6>LinkedIn : ......</h6>
+        </div>
+
+        <div class="col-md-4 bg-dark text-light p-3">
+          <h5>Quick Links</h5>
+          <hr />
+         <h6><a href="Home.html">HOME</a></h6><br/>
+         <h6><a href="aboutme.html">ABOUT ME</a></h6><br/>
+         <h6><a href="myskills.html">MY SKILLS</a></h6><br/>
+         <h6><a href="contactme.html">CONTACT ME</a></h6><br/>
+        </div>
+
+        <div class="col-md-4 bg-dark text-light p-3">
+          <h5>Social Media</h5>
+          <hr />
+          <h5 style="display: inline;"><a href="#"><i class="bi bi-linkdin"></i></a></h5>&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;
+          <h5 style="display: inline;"><a href="#"><i class="bi bi-github"></i></a></h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <h5 style="display: inline;"><a href="#"><i class="bi bi-facebook"></i></a></h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <h5 style="display: inline;"><a href="#"><i class="bi bi-twitter"></i></a></h5>
+        
+        </div>
+      </div>
+      <!--Footer ends-->
+    </div>
+  </body>
+</html>
